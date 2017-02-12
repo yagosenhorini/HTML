@@ -1,0 +1,41 @@
+body {
+	
+	background-color: olive;
+	margin-bottom: 20%
+	margin-top:20%;
+	padding: 2%;
+	text-align: center;
+
+}
+
+input {
+
+	border-style: solid;
+	border-color: gray;
+	border-width: 2px;
+	color: black;
+
+}
+
+h3 {
+	
+	text-align: center;
+	color: black;	
+	font-family: arial-black;
+	font-size: 40px;
+
+}
+
+footer {
+
+	text-align: center;
+	color:	black;
+	margin-top: 20%;
+	font-family: arial-black;
+}
+
+label{
+
+	color: black;
+	
+}
