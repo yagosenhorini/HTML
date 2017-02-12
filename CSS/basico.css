@@ -17,6 +17,14 @@ input {
 
 }
 
+h1{
+	color: black;
+}
+
+p{
+	color:white;
+}
+
 h3 {
 	
 	text-align: center;
