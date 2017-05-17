@@ -1,11 +1,10 @@
-body {
+.fundo{
 	
 	background-color: olive;
 	margin-bottom: 20%
 	margin-top:20%;
 	padding: 2%;
 	text-align: center;
-
 }
 
 input {
@@ -22,7 +21,7 @@ h1{
 }
 
 p{
-	color:white;
+	color: white;
 }
 
 h3 {
