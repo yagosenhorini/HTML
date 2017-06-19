@@ -25,7 +25,7 @@
   <li><a href="index.php"><i class="fa fa-home" style="font-size:24px"></i></a></li>
   <li style="float:right"><a href="#"><i class="fa fa-github" style="font-size:24px"></i></a></li>
   <li style="float:right"><a href="teste.php">Contato</a></li>
-  <li style="float:right"><a href="#">Sobre</a></li>
+  <li style="float:right"><href="">Sobre</a></li>
 </ul>
 </div>
 </section>
@@ -33,29 +33,31 @@
 <!-- Seção de informações !-->
 <section id="info">
 
-<div class="container-fluid">
+
 <div class="row">
-<div class="col-md-12">
-<h3 class="whoami">Quem Sou Eu</h3>
-<p class="borda">Lorem Ipsum...</p>
+<div class="container-fluid">
+<div class="col-md-12 whoami">
+<h3>Quem Sou Eu</h3>
+<p>Lorem Ipsum...</p>
 </div>
 </div>
 </div>
 
-<div class="container-fluid">
+
 <div class="row">
-<div class="col-md-12">
-<h3 class="alinha">Formação</h3>
-<p class="borda">Lorem Ipsum...</p>
+<div class="container-fluid">
+<div class="col-md-12 formation">
+<h3>Formação</h3>
+<p>Lorem Ipsum...</p>
 </div>
 </div>
 </div>
 
-<div class="container-fluid">
 <div class="row">
-<div class="col-md-12">
-<h3 class="alinha">Projetos</h3>
-<p class="borda">Lorem Ipsum...</p>
+<div class="container-fluid">
+<div class="col-md-12 hobbies">
+<h3>Hobbies</h3>
+<p>Lorem Ipsum...</p>
 </div>
 </div>
 </div>
