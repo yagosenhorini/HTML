@@ -27,18 +27,20 @@
 
 .whoami{
 
-	text-align: center;
-	border-style: solid;
-	border-color: black;
+	text-align: justify-all;
 	background-color: #FFFACD;
 }
 
 .formation{
 
 	text-align: center;
-	border-style: solid;
-	border-color: black;
 	background-color: #FFDEAD;
+}
+
+.hobbies{
+
+	text-align: right;
+	background-color: #FFE4C4;
 }
 
 
