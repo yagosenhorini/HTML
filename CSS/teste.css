@@ -1,0 +1,82 @@
+.corpo{
+
+	background-color: #CDC1C5;
+}
+
+.entrada{
+
+	border-style: solid;
+	border-color: black;
+
+}
+
+.input{
+
+	width: 10%;
+}
+
+.input-alinha{
+
+	margin-left: 3%;
+}
+
+.input-alinha2{
+
+	margin-left: 3.20%;
+}
+
+.whoami{
+
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	background-color: #FFFACD;
+}
+
+.formation{
+
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	background-color: #FFDEAD;
+}
+
+
+.borda{
+
+	border-style: solid;
+	border-color: black;
+}
+
+.barra{
+
+	background: #FF8C69;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #708090;
+}
