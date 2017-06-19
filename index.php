@@ -25,7 +25,7 @@
   <li><a href="index.php"><i class="fa fa-home" style="font-size:24px"></i></a></li>
   <li style="float:right"><a href="#"><i class="fa fa-github" style="font-size:24px"></i></a></li>
   <li style="float:right"><a href="teste.php">Contato</a></li>
-  <li style="float:right"><href="">Sobre</a></li>
+  <li style="float:right"><a href="#">Sobre</a></li>
 </ul>
 </div>
 </section>

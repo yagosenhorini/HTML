@@ -28,13 +28,14 @@
 .whoami{
 
 	text-align: justify-all;
-	background-color: #FFFACD;
+	background-color: #000000;
+	color: #ffffff;
 }
 
 .formation{
 
 	text-align: center;
-	background-color: #FFDEAD;
+	background-color: #6A5ACD;
 }
 
 .hobbies{
