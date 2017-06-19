@@ -35,7 +35,7 @@ function input($data) {
   $data = htmlspecialchars($data);
   return $data;
 }
-
+ 
 ?>
 
 <ul>
