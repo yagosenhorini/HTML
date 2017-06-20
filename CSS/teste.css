@@ -3,6 +3,11 @@
 	background-color: #CDC1C5;
 }
 
+.navegacao{
+
+	background-color: #CDC1C5;
+	text-align: justify-all;
+}
 .entrada{
 
 	border-style: solid;
@@ -65,11 +70,11 @@
 
 .paragrafo{
 
-	text-align: justify;
+	text-align: justify-all;
 	font-size: 12px;
 }
 
-ul{
+.nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
