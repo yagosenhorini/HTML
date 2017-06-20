@@ -23,8 +23,9 @@
 <ul id="navbar">
   <li><a href="index.php"><i class="fa fa-home" style="font-size:24px"></i></a></li>
   <li style="float:right"><a href="https://github.com/yagosenhorini"><i class="fa fa-github" style="font-size:24px">Github</i></a></li>
-  <li style="float:right"><a href="#whoami">Quem sou Eu</a></li>
+  <li style="float:right"><a href="#hobby">Hobbies</a></li>
   <li style="float:right"><a href="#academics">Informações Acadêmicas</a></li>
+  <li style="float:right"><a href="#whoami">Quem sou Eu</a></li>
 </ul>
 </div>
 </section>
