@@ -3,8 +3,11 @@
 <head>
 	<title>Apresentação</title>
 
-<meta charset="utf-8"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <meta author="Yago dos Santos Senhorini"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="keywords" content="website, tecnologia, apresentação"/>
 
 <!-- Importação de CSS, Bootstrap e Ícones !-->
 <link rel="stylesheet" type="text/CSS" href="CSS/teste.css"/>
@@ -22,6 +25,8 @@
 <!-- Barra de navegação !-->
 <ul id="navbar">
   <li><a href="index.php"><i class="fa fa-home" style="font-size:24px"></i></a></li>
+  <li style="float:right"><a href="https://www.linkedin.com/in/yago-senhorini-69154ba8/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a></li>
+  <li style="float:right"><a href="https://www.facebook.com/yago.senhorini"><i class="fa fa-facebook" style="font-size:24px"></i></a></li>
   <li style="float:right"><a href="https://github.com/yagosenhorini"><i class="fa fa-github" style="font-size:24px">Github</i></a></li>
   <li style="float:right"><a href="#hobby">Hobbies</a></li>
   <li style="float:right"><a href="#academics">Informações Acadêmicas</a></li>
