@@ -26,22 +26,29 @@
 }
 
 .whoami{
-
 	text-align: justify-all;
-	background-color: #000000;
-	color: #ffffff;
+	background-color: #B4CDCD;
+	color: #1C1C1C;
+	font-family: fantasy;
+	font: impact;	
 }
 
 .formation{
-
 	text-align: center;
-	background-color: #6A5ACD;
+	background-color: #D1EEEE;
+	color: #1C1C1C;
+	font-family: fantasy;
+	font: impact;
 }
 
 .hobbies{
 
 	text-align: right;
-	background-color: #FFE4C4;
+	background-color: #9BCD9B;
+	color: #1C1C1C;
+	font-family: fantasy;
+	font: impact;
+	
 }
 
 
@@ -54,6 +61,12 @@
 .barra{
 
 	background: #FF8C69;
+}
+
+.paragrafo{
+
+	text-align: justify;
+	font-size: 12px;
 }
 
 ul{
@@ -82,4 +95,10 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #708090;
+}
+
+.rodape{
+
+	text-align: center;
+	margin-bottom: 17px;
 }

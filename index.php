@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Início</title>
+	<title>Apresentação</title>
 
 <meta charset="utf-8"/>
 <meta author="Yago dos Santos Senhorini"/>
@@ -13,7 +13,6 @@
 
 </head>
 
-
 <body class="corpo">
 
 <!-- Seção de início da página !-->
@@ -21,43 +20,80 @@
 <div id="nav">
 
 <!-- Barra de navegação !-->
-<ul>
+<ul id="navbar">
   <li><a href="index.php"><i class="fa fa-home" style="font-size:24px"></i></a></li>
-  <li style="float:right"><a href="#"><i class="fa fa-github" style="font-size:24px"></i></a></li>
-  <li style="float:right"><a href="teste.php">Contato</a></li>
-  <li style="float:right"><a href="#">Sobre</a></li>
+  <li style="float:right"><a href="https://github.com/yagosenhorini"><i class="fa fa-github" style="font-size:24px">Github</i></a></li>
+  <li style="float:right"><a href="#whoami">Quem sou Eu</a></li>
+  <li style="float:right"><a href="#academics">Informações Acadêmicas</a></li>
 </ul>
 </div>
 </section>
 
-<!-- Seção de informações !-->
-<section id="info">
-
-
+<!-- Seção de informações pessoais!-->
+<section id="whoami">
 <div class="row">
 <div class="container-fluid">
 <div class="col-md-12 whoami">
 <h3>Quem Sou Eu</h3>
-<p>Lorem Ipsum...</p>
-</div>
-</div>
-</div>
+<p class="paragrafo">Meu nome é Yago, tenho 24 anos de idade, natural de São Paulo - SP.
+<br />
+Solteiro, não fumante e não possuo filhos.
+<br />
+Atualmente resido na Penha, bairro situado na zona leste da cidade de São Paulo.<br />
+<br />
+Tenho como objetivo, me tornar um desenvolvedor, com ênfase em aplicações desktop ou web.
+<br />
+Possuo conhecimentos nas linguagens de programação: 
+<br />
+Java e suas tecnologias (JSF e Spring) em nível intermediário; 
+<br />
+PHP em nível básico;
+<br />
+Linguagem de formatação para web (HTML e CSS) em nível básico;
+<br />
+Banco de dados (Oracle e MySQL) em nível básico;  
+<br />
+Sou uma pessoa determinada, pró-ativa e focada, que não tem parada até alcançar os resultados esperados.
 
+</p>
+</div>
+</div>
+</div>
+</section>
 
+<!-- Seção de informações acadêmicas e informações adicionais !-->
+<section id="academics">
 <div class="row">
 <div class="container-fluid">
 <div class="col-md-12 formation">
-<h3>Formação</h3>
-<p>Lorem Ipsum...</p>
-</div>
-</div>
-</div>
+<h3 style="font-style: bold">Formação e Informações Adicionais</h3>
 
+<p class="paragrafo">Formando em Ciência da Computação, pelo Complexo Educacional das Faculdades Metropolitanas Unidas - FMU.
+<br />
+Para quem não conhece, o curso de Ciência da Computação é focado em desenvolvimento de  aplicações tecnológicas para soluções de problemas atuais, como pequenos controles de estoque, até os mais complexos, como aplicações de Inteligência Artificial, para predição de resultados de exames médicos (Aprendizado de Máquina) ou para criação de inteligência para máquinas (como no filme "Eu, Robô", por exemplo).
+</p>
+
+<p class="paragrafo">Estudo e utilizo a linguagem JAVA como linguagem padrão para desenvolvimento, tanto de aplicações simples, que não requer nenhum conhecimento específico e de banco de dados, quanto aplicações Web, que requer um nível maior de conhecimento específico da linguagem e a integração com bancos de dados e utilização de frameworks de desenvolvimento.</p>
+
+<p class="paragrafo">Atualmente, atuo como Analista de Suporte na empresa Camisaria Colombo, grupo este que completou 100 anos de existência, se consolidando como uma das maiores empresas do ramo varejista.
+</div>
+</div>
+</div>
+</section>
+
+<!-- Seção de Hobbies e Projetos futuros!-->
+<section id="hobby">
 <div class="row">
 <div class="container-fluid">
 <div class="col-md-12 hobbies">
-<h3>Hobbies</h3>
-<p>Lorem Ipsum...</p>
+<h3 style="font-style: bold">Hobbies e Projetos</h3>
+<p class="paragrafo">Gosto de estudar e aplicar conhecimentos adquiridos, seja na parte de desenvolvimento de aplicações ou até mesmo conteúdo teórico sobre as origens da computação, ou os processos de desenvolvimento de aplicações complexas.
+<br />
+Sou amante da cultura nerd. Gosto de jogar video-game nas horas em que não estou estudando, apaixonado por mangás e animes, como Dragon Ball (e suas derivações), Yu Yu Hakusho e Cavaleiros do Zodíaco e amante de filmes de ficção científica, como Star Wars (Saga de ficção favorita) e de super-heróis (Batman e Homem de Ferro são minhas inspirações).
+<br />
+<p class="paragrafo">Neste projeto, decidi desenvolver esta página, com o intuito de aplicar os conhecimentos adquiridos ao longo dos anos de estudo e aplicar novos conceitos e práticas de desenvolvimento.
+<br />
+Como futuros projetos, pretendo desenvolver pequenas aplicações, para pôr em prática, todo meu conhecimento adquirido com meus estudos.</p>
 </div>
 </div>
 </div>
@@ -65,7 +101,10 @@
 </body>
 
 <!-- Seção do rodapé !-->
-<section id="fim">
-<footer></footer>
+<section id="end">
+
+<br />
+
+<footer class="rodape">2017 - Todos os direitos reservados.</footer>
 </section>
 </html>
