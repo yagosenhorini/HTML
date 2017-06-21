@@ -6,7 +6,7 @@ $email 		= $_POST["email"];
 $texto 		= $_POST["texto"];
 $assunto	= $_POST["assunto"];
 
-//Inclui o arquivo do phpmailer
+//Inclusão do arquivo do phpmailer
 include("class.phpmailer.php");
 include("class.smtp.php");
 
@@ -28,12 +28,9 @@ $mail->Subject = $assunto;
 $mail->Body    = $texto;
 
 //Envio do email
-
 $enviado = $mail->Send();
-
 if($enviado){
 	echo "Enviado com Sucesso";
-
 }else{
 	$mail->ErrorInfo;
 }
