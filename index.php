@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Apresentação</title>
+	<title>Apresentação Pessoal</title>
 
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <meta author="Yago dos Santos Senhorini"/>
@@ -28,9 +28,10 @@
   <li style="float:right"><a href="https://www.linkedin.com/in/yago-senhorini-69154ba8/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a></li>
   <li style="float:right"><a href="https://www.facebook.com/yago.senhorini"><i class="fa fa-facebook" style="font-size:24px"></i></a></li>
   <li style="float:right"><a href="https://github.com/yagosenhorini"><i class="fa fa-github" style="font-size:24px">Github</i></a></li>
+  <li style="float:right"><a href="entrar_contato.php">Contato</a></li>
   <li style="float:right"><a href="#hobby">Hobbies</a></li>
   <li style="float:right"><a href="#academics">Informações Acadêmicas</a></li>
-  <li style="float:right"><a href="#whoami">Quem sou Eu</a></li>
+  <li style="float:right"><a href="#whoami">Quem Sou Eu</a></li>
 </ul>
 </div>
 </div>

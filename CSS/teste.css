@@ -1,3 +1,8 @@
+.insere{
+
+	position: relative;
+}
+
 .corpo{
 
 	background-color: #CDC1C5;
@@ -7,30 +12,11 @@
 
 	background-color: #CDC1C5;
 	text-align: justify-all;
-}
-.entrada{
 
-	border-style: solid;
-	border-color: black;
-
-}
-
-.input{
-
-	width: 10%;
-}
-
-.input-alinha{
-
-	margin-left: 3%;
-}
-
-.input-alinha2{
-
-	margin-left: 3.20%;
 }
 
 .whoami{
+
 	text-align: justify-all;
 	background-color: #B4CDCD;
 	color: #1C1C1C;
@@ -39,6 +25,7 @@
 }
 
 .formation{
+
 	text-align: center;
 	background-color: #D1EEEE;
 	color: #1C1C1C;
@@ -59,8 +46,8 @@
 
 .borda{
 
-	border-style: solid;
-	border-color: black;
+	text-align: center;
+	position: center;
 }
 
 .barra{
@@ -104,6 +91,7 @@ li a:hover:not(.active) {
 
 .rodape{
 
+	margin-bottom: 14px;
+	position: relative;
 	text-align: center;
-	margin-bottom: 17px;
 }
