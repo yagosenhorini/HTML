@@ -65,30 +65,22 @@
 <input type="email" id="email" name="email" />
 <br /><br />
 
-<<<<<<< HEAD
+
 <label for="assunto" id="assunto">Assunto: </label>
 <input type="text"  id="assunto" name="assunto"/>
 <br /><br />
 
 <label for="texto" id="mensagem">Mensagem: </label>
 <textarea id="texto" name="texto" cols="20"  placeholder="Escreva sua mensagem aqui..."></textarea>
-=======
-<label for="assunto">Assunto: </label>
-<input type="text" name="assunto" id="assunto"/>
-<br /><br />
 
-<label for="texto">Mensagem: </label>
-<input type="textarea" rows="5" style="width: 300px; height: 250px;" name="texto" id="texto" />
->>>>>>> 30f03f775941b80a5f763d04bbc1b311ae5f3b55
+
 <br /><br />
 </div>
 
-<<<<<<< HEAD
+
 <input type="submit" value="Enviar" id="btn-envio"/>
 
-=======
-<input type="submit" value="Enviar" />
->>>>>>> 30f03f775941b80a5f763d04bbc1b311ae5f3b55
+
 </form>
 </div>
 </div>
