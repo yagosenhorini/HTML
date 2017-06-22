@@ -88,38 +88,37 @@ li a:hover:not(.active) {
 
 #nome{
 	position: relative;
-	left: 40%
+	
 }
 
 #email{
 	position: relative;
-	left: 40.10%;
+	
 }
 
 #assunto{
 	position: relative;
-	left:38.5%;
+	
 }
 
 #telefone{
 	position: relative;
-	left:38.3%;
+	
 }
 
 #mensagem{
 	position: relative;
-	left: 31%;
-	top: 20%;
+	
 }
 
 #texto{
 	position:relative;
-	left:31%;
 	width: 25%;
 	height: 180px;
 }
 
 #btn-envio{
 	position: relative;
-	left: 48%;
+	
+
 }
