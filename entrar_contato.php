@@ -17,11 +17,11 @@
 </head>
 
 <!-- Seção de início da página !-->
-<body class="corpo">
+<body id="corpo">
 <section id="home">
 
 <!-- Barra de navegação !-->
-<div id="nav">
+<div id="nav" class="nav navbar-fixed-top">
 <ul id="navbar" class="nav">
   <li><a href="index.php"><i class="fa fa-home" style="font-size:24px"></i></a></li>
   <li style="float:right"><a href="https://www.linkedin.com/in/yago-senhorini-69154ba8/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a></li>
@@ -39,10 +39,10 @@
 
 <!-- Seção de Contato !-->
 <section id="contato">
-<div class="row">
+<div id="formulario" class="row">
 <div class="col-xs-12">
 <div class="container-fluid">
-<h3 align="center" style="font-family: fantasy; font:impact;">Entre em Contato</h3>
+
 </div>
 </div>
 </div>
@@ -54,41 +54,45 @@
 <div class="container-fluid">
 
 <!--Formulário de Contato !-->
+<fieldset>
+<legend id="legenda">Entre em Contato</legend>
 <form method="post" action="envio.php">
 
-<div class="col-xs-12">
+<div align="center" class="col-xs-12">
 <label for="nome" id="nome">Nome: </label>
+<br />
 <input type="text" id="nome" name="nome" />
 <br /><br />
 
 <label for="email" id="email">Email: </label>
+<br />
 <input type="email" id="email" name="email" />
 <br /><br />
 
-
 <label for="assunto" id="assunto">Assunto: </label>
+<br />
 <input type="text"  id="assunto" name="assunto"/>
 <br /><br />
 
 <label for="texto" id="mensagem">Mensagem: </label>
+<br />
 <textarea id="texto" name="texto" cols="20"  placeholder="Escreva sua mensagem aqui..."></textarea>
-
 
 <br /><br />
 </div>
 
-
+<div align="center">
 <input type="submit" value="Enviar" id="btn-envio"/>
-
+</div>
 
 </form>
+</fieldset>
 </div>
 </div>
 </div>
 
 <!-- Seção do rodapé !-->
 <section id="end">
-
 <footer id="rodape">2017 - Todos os direitos reservados.</footer>
 </section>
 </body>
