@@ -4,14 +4,14 @@
 	<title>Entre em Contato</title>
 </head>
 
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <meta author="Yago dos Santos Senhorini"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="keywords" content="website, tecnologia, apresentação, programador"/>
 
 <!-- Importação de CSS, Bootstrap e Ícones !-->
-<link rel="stylesheet" type="text/CSS" href="CSS/teste.css"/>
+<link rel="stylesheet" type="text/CSS" href="CSS/css_website.css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -44,7 +44,7 @@
 <div class="row">
 <div class="col-xs-12">
 <div class="container-fluid">
-<h3 align="center">Entre em Contato</h3>
+<h3 align="center" style="font-family: fantasy; font:impact;">Entre em Contato</h3>
 </div>
 </div>
 </div>
@@ -52,44 +52,41 @@
 
 <br />
 
-<div class="row borda">
+<div class="row">
 <div class="col-xs-12">
 <div class="container-fluid">
 
 <form method="post" action="envio.php">
 
-<label for="nome">Nome: </label>
-<input type="text" name="nome" id="nome" />
+<div class="col-xs-12">
+<label for="nome" id="nome">Nome: </label>
+<input type="text" id="nome" name="nome" />
 <br /><br />
 
-<label for="email">Email: </label>
-<input type="text" name="email" id="email" />
+<label for="email" id="email">Email: </label>
+<input type="email" id="email" name="email" />
 <br /><br />
 
-<label for="assunto">Assunto: </label>
-<input type="text" name="assunto" id="assunto"/>
-
+<label for="assunto" id="assunto">Assunto: </label>
+<input type="text"  id="assunto" name="assunto"/>
 <br /><br />
 
-<label for="texto">Mensagem: </label>
-<input type="textarea" rows="5" style="width: 300px; height: 250px;" name="texto" id="texto" />
-
+<label for="texto" id="mensagem">Mensagem: </label>
+<textarea id="texto" name="texto" cols="20"  placeholder="Escreva sua mensagem aqui..."></textarea>
 <br /><br />
+</div>
 
-<input type="submit" value="Enviar" />
-
+<input type="submit" value="Enviar" id="btn-envio"/>
 
 </form>
 </div>
 </div>
 </div>
 
-
-
 <!-- Seção do rodapé !-->
 <section id="end">
-<br />
-<footer class="rodape">2017 - Todos os direitos reservados.</footer>
+
+<footer id="rodape">2017 - Todos os direitos reservados.</footer>
 </section>
 
 </body>
