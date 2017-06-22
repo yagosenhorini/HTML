@@ -16,9 +16,9 @@
 </head>
 
 <!-- Seção de início da página !-->
-<body class="corpo">
+<body id="corpo">
 <section id="home">
-<div id="nav">
+<div id="nav" class="nav navbar-fixed-top">	
 
 <!-- Barra de navegação !-->
 <ul id="navbar" class="nav">
