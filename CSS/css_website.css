@@ -43,6 +43,12 @@
 	
 }
 
+.group{
+
+	text-align: center;
+	width: auto;
+	height: auto;
+}
 
 .borda{
 
@@ -89,9 +95,48 @@ li a:hover:not(.active) {
     background-color: #708090;
 }
 
-.rodape{
+#rodape{
 
-	margin-bottom: 14px;
 	position: relative;
-	text-align: center;
+	left: 41.5%;
+	margin-top: 1.80%;
+	margin-bottom: 1.25%;
+}
+
+#nome{
+	position: relative;
+	left: 40%;
+}
+
+#email{
+	position: relative;
+	left: 40.10%;
+}
+
+#assunto{
+	position: relative;
+	left:38.5%;
+}
+
+#telefone{
+	position: relative;
+	left:38.3%;
+}
+
+#mensagem{
+	position: relative;
+	left: 31%;
+	top: 20%;
+}
+
+#texto{
+	position:relative;
+	left:31%;
+	width: 25%;
+	height: 180px;
+}
+
+#btn-envio{
+	position: relative;
+	left: 48%;
 }
