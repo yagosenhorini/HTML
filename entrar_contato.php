@@ -16,14 +16,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-
-<body class="corpo">
-
 <!-- Seção de início da página !-->
+<body class="corpo">
 <section id="home">
-<div id="nav">
 
 <!-- Barra de navegação !-->
+<div id="nav">
 <ul id="navbar" class="nav">
   <li><a href="index.php"><i class="fa fa-home" style="font-size:24px"></i></a></li>
   <li style="float:right"><a href="https://www.linkedin.com/in/yago-senhorini-69154ba8/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a></li>
@@ -37,9 +35,9 @@
 </div>
 </div>
 </section>
-
 <br />
 
+<!-- Seção de Contato !-->
 <section id="contato">
 <div class="row">
 <div class="col-xs-12">
@@ -49,13 +47,13 @@
 </div>
 </div>
 </section>
-
 <br />
 
 <div class="row">
 <div class="col-xs-12">
 <div class="container-fluid">
 
+<!--Formulário de Contato !-->
 <form method="post" action="envio.php">
 
 <div class="col-xs-12">
@@ -67,17 +65,30 @@
 <input type="email" id="email" name="email" />
 <br /><br />
 
+<<<<<<< HEAD
 <label for="assunto" id="assunto">Assunto: </label>
 <input type="text"  id="assunto" name="assunto"/>
 <br /><br />
 
 <label for="texto" id="mensagem">Mensagem: </label>
 <textarea id="texto" name="texto" cols="20"  placeholder="Escreva sua mensagem aqui..."></textarea>
+=======
+<label for="assunto">Assunto: </label>
+<input type="text" name="assunto" id="assunto"/>
+<br /><br />
+
+<label for="texto">Mensagem: </label>
+<input type="textarea" rows="5" style="width: 300px; height: 250px;" name="texto" id="texto" />
+>>>>>>> 30f03f775941b80a5f763d04bbc1b311ae5f3b55
 <br /><br />
 </div>
 
+<<<<<<< HEAD
 <input type="submit" value="Enviar" id="btn-envio"/>
 
+=======
+<input type="submit" value="Enviar" />
+>>>>>>> 30f03f775941b80a5f763d04bbc1b311ae5f3b55
 </form>
 </div>
 </div>
@@ -88,6 +99,5 @@
 
 <footer id="rodape">2017 - Todos os direitos reservados.</footer>
 </section>
-
 </body>
 </html>

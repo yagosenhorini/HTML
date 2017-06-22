@@ -15,10 +15,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-
-<body class="corpo">
-
 <!-- Seção de início da página !-->
+<body class="corpo">
 <section id="home">
 <div id="nav">
 
@@ -38,7 +36,6 @@
 </section>
 
 <!-- Seção de informações pessoais!-->
-
 <section id="whoami">
 <div class="row">
 <div class="col-xs-12 whoami">
@@ -105,10 +102,10 @@ Como futuros projetos, pretendo desenvolver pequenas aplicações, para pôr em 
 </div>
 </div>
 </section>
-</body>
 
 <!-- Seção do rodapé !-->
 <section id="end">
 <footer id="rodape">2017 - Todos os direitos reservados.</footer>
 </section>
+</body>
 </html>
