@@ -59,26 +59,25 @@
 <form method="post" action="envio.php">
 
 <div align="center" class="col-xs-12">
-<label for="nome" id="nome">Nome: </label>
+<label for="nome" id="nome" class="control-label">Nome: </label>
 <br />
-<input type="text" id="nome" name="nome" />
-<br /><br />
-
-<label for="email" id="email">Email: </label>
+<input type="text" id="nome-form" class="form-control" name="nome" />
 <br />
-<input type="email" id="email" name="email" />
-<br /><br />
 
-<label for="assunto" id="assunto">Assunto: </label>
+<label for="email" id="email" class="control-label">Email: </label>
 <br />
-<input type="text"  id="assunto" name="assunto"/>
-<br /><br />
+<input type="email" id="email-form" class="form-control" name="email" placeholder="exemplo@exemplo.com" />
+<br />
 
-<label for="texto" id="mensagem">Mensagem: </label>
+<label for="assunto" id="assunto" class="control-label">Assunto: </label>
+<br />
+<input type="text" id="assunto-form" class="form-control" name="assunto"/>
+<br />
+
+<label for="texto" id="mensagem" class="control-label">Mensagem: </label>
 <br />
 <textarea id="texto" name="texto" cols="20"  placeholder="Escreva sua mensagem aqui..."></textarea>
-
-<br /><br />
+<br />
 </div>
 
 <div align="center">
@@ -93,7 +92,9 @@
 
 <!-- Seção do rodapé !-->
 <section id="end">
+<fieldset>
 <footer id="rodape">2017 - Todos os direitos reservados.</footer>
+</fieldset>
 </section>
 </body>
 </html>
