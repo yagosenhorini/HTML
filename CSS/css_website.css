@@ -1,54 +1,37 @@
-.insere{
-
-	position: relative;
-}
-
 #corpo{
-	
 	background-color: #CDC1C5;
-	text-align: justify;
 }
 
 .whoami{
-
-	text-align: justify-all;
+	text-align: left;
 	background-color: #B4CDCD;
 	color: #1C1C1C;
-	font-family: fantasy;
-	font: impact;	
 }
 
 .formation{
-
 	text-align: center;
 	background-color: #D1EEEE;
 	color: #1C1C1C;
-	font-family: fantasy;
-	font: impact;
 }
 
 .hobbies{
-
 	text-align: right;
 	background-color: #9BCD9B;
 	color: #1C1C1C;
-	font-family: fantasy;
-	font: impact;	
 }
 
-
 #paragrafo{
-
 	text-align: justify-all;
 	font-size: 12px;
 }
 
-.nav{
+#navbar{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #000000;
+    position: relative;
 }
 
 li{
@@ -72,11 +55,9 @@ li a:hover:not(.active) {
 }
 
 #rodape{
-
-	position: relative;
+	
 	text-align: center;
-	margin-top: 1.80%;
-	margin-bottom: 1.25%;
+
 }
 
 #nome{
@@ -99,12 +80,6 @@ li a:hover:not(.active) {
 	text-align: center;
 }
 
-#texto{
-	position:relative;
-	width: 25%;
-	height: 180px;
-}
-
 #btn-envio{
 	position: relative;
 }
@@ -118,7 +93,51 @@ li a:hover:not(.active) {
 	margin-top: 10px;
 }
 
-#eu{
+#nome-form{
+	width: 25%;
+	height: auto;
+}
 
-	margin-top: 10%:;
+#email-form{
+	width: 25%;
+	height: auto;
+}
+
+#assunto-form{
+	width: 25%;
+	height: auto;
+}
+
+#texto{
+	position:relative;
+	width: 25%;
+	height: 180px;
+}
+
+.flutuante{
+	float: right;
+}
+
+.flutuante2{
+	float: left;
+}
+
+#navegacao{
+	background-color: black;
+}
+
+#info{
+	color: lightgray;
+}
+
+.titulo{
+	font-family: fantasy;
+	font: impact;
+	color: black;
+	font-weight: bold;
+}
+
+.letra{
+	color: lightgray;
+	font-weight: bold;
 }
