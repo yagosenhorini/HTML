@@ -1,46 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 	<title>Apresentação Pessoal</title>
 
 <meta author="Yago dos Santos Senhorini"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="keywords" content="website, tecnologia, apresentação, programador"/>
+<meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
+
+<style>
+@media screen and (min-width: 400px) {
+  @import url(css_website.css);
+}
+</style>
 
 <!-- Importação de CSS, Bootstrap e Ícones !-->
-<link rel="stylesheet" type="text/CSS" href="CSS/css_website.css"/>
+<link rel="stylesheet" type="text/CSS" href="CSS/css_website.css" media="screen"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <!-- Seção de início da página !-->
 <body id="corpo">
 <section id="home">
-<div id="nav" class="nav navbar-fixed-top">	
 
 <!-- Barra de navegação !-->
-<ul id="navbar" class="nav">
-  <li><a href="index.php"><i class="fa fa-home" style="font-size:24px"></i></a></li>
-  <li style="float:right"><a href="https://www.linkedin.com/in/yago-senhorini-69154ba8/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a></li>
-  <li style="float:right"><a href="https://www.facebook.com/yago.senhorini"><i class="fa fa-facebook" style="font-size:24px"></i></a></li>
-  <li style="float:right"><a href="https://github.com/yagosenhorini"><i class="fa fa-github" style="font-size:24px">Github</i></a></li>
-  <li style="float:right"><a href="entrar_contato.php">Contato</a></li>
-  <li style="float:right"><a href="#hobby">Hobbies</a></li>
-  <li style="float:right"><a href="#academics">Informações Acadêmicas</a></li>
-  <li style="float:right"><a href="#whoami">Quem Sou Eu</a></li>
+<nav id="nav" class="nav navbar-fixed">
+<ul id="navbar">
+  <li><a href="default.php"><i class="fa fa-home" style="font-size:24px"></i></a></li>
+  <li class="flutuante"><a href="https://www.linkedin.com/in/yago-senhorini-69154ba8/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a></li>
+  <li class="flutuante"><a href="https://www.facebook.com/yago.senhorini"><i class="fa fa-facebook" style="font-size:24px"></i></a></li>
+  <li class="flutuante"><a href="https://github.com/yagosenhorini"><i class="fa fa-github" style="font-size:24px"></i></a></li>
+  <li class="flutuante"><a href="entrar_contato.php" class="letra">Contato</a></li>
+  <li class="flutuante2"><a href="default.php#whoami" class="letra">Quem Sou Eu</a></li>
+  <li class="flutuante2"><a href="default.php#academics" class="letra">Informações Acadêmicas</a></li>
+  <li class="flutuante2"><a href="default.php#hobby" class="letra">Hobbies</a></li>
 </ul>
-</div>
-</div>
+</nav>
 </section>
-
+  
 <!-- Seção de informações pessoais!-->
 <section id="whoami">
 <div class="row">
 <div class="col-xs-12 whoami">
 <div class="container-fluid">
-<h3 style="font-style: bold">Quem Sou Eu</h3>
+
+<h3 class="titulo">Quem Sou Eu</h3>
 <p id="paragrafo">Meu nome é Yago, tenho 24 anos de idade, natural de São Paulo - SP.
 <br />
 Solteiro, não fumante e não possuo filhos.
@@ -70,10 +78,11 @@ Sou uma pessoa determinada, pró-ativa e focada, que não tem parada até alcan�
 
 <!-- Seção de informações acadêmicas e informações adicionais !-->
 <section id="academics">
+
 <div class="row">
 <div class="col-xs-12 formation">
 <div class="container-fluid">
-<h3 style="font-style: bold">Formação e Informações Adicionais</h3>
+<h3 class="titulo">Formação e Informações Adicionais</h3>
 <p id="paragrafo">Formando em Ciência da Computação, pelo Complexo Educacional das Faculdades Metropolitanas Unidas - FMU.
 <br />
 Para quem não conhece, o curso de Ciência da Computação é focado em desenvolvimento de  aplicações tecnológicas para soluções de problemas atuais, como pequenos controles de estoque, até os mais complexos, como aplicações de Inteligência Artificial, para predição de resultados de exames médicos (Aprendizado de Máquina) ou para criação de inteligência para máquinas (como no filme "Eu, Robô", por exemplo).
@@ -87,10 +96,11 @@ Para quem não conhece, o curso de Ciência da Computação é focado em desenvo
 
 <!-- Seção de Hobbies e Projetos futuros !-->
 <section id="hobby">
+
 <div class="row">
 <div class="col-xs-12 hobbies">
 <div class="container-fluid">
-<h3 style="font-style: bold">Hobbies e Projetos</h3>
+<h3 class="titulo">Hobbies e Projetos</h3>
 <p id="paragrafo">Gosto de estudar e aplicar conhecimentos adquiridos, seja na parte de desenvolvimento de aplicações ou até mesmo conteúdo teórico sobre as origens da computação, ou os processos de desenvolvimento de aplicações complexas.
 <br />
 Sou amante da cultura nerd. Gosto de jogar video-game nas horas em que não estou estudando, apaixonado por mangás e animes, como Dragon Ball (e suas derivações), Yu Yu Hakusho e Cavaleiros do Zodíaco e amante de filmes de ficção científica, como Star Wars (Saga de ficção favorita) e de super-heróis (Batman e Homem de Ferro são minhas inspirações).</p>
@@ -101,11 +111,17 @@ Como futuros projetos, pretendo desenvolver pequenas aplicações, para pôr em 
 </div>
 </div>
 </div>
+<br />
 </section>
 
 <!-- Seção do rodapé !-->
 <section id="end">
+<div class="row">
+<div class="col-xs-12">
+<div class="container-fluid">
 <footer id="rodape">2017 - Todos os direitos reservados.</footer>
+<br />
+</div>
 </section>
 </body>
 </html>
