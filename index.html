@@ -1,127 +1,140 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-	<title>Apresentação Pessoal</title>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+        <title>Teste de Materialize</title>
+        <meta name="description" content="Website de teste utilizando materialize.css"/>
+        <meta name="author" content="Yago dos Santos Senhorini"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<meta author="Yago dos Santos Senhorini"/>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="keywords" content="website, tecnologia, apresentação, programador"/>
-<meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
-<style>
-@media screen and (min-width: 400px) {
-  @import url(css_website.css);
-}
-</style>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="materialize/css/materialize.css">
 
-<!-- Importação de CSS, Bootstrap e Ícones !-->
-<link rel="stylesheet" type="text/CSS" href="CSS/css_website.css" media="screen"/>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
 
-<!-- Seção de início da página !-->
-<body id="corpo">
-<section id="home">
 
-<!-- Barra de navegação !-->
-<nav id="nav" class="nav navbar-fixed">
-<ul id="navbar">
-  <li><a href="default.php"><i class="fa fa-home" style="font-size:24px"></i></a></li>
-  <li class="flutuante"><a href="https://www.linkedin.com/in/yago-senhorini-69154ba8/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a></li>
-  <li class="flutuante"><a href="https://www.facebook.com/yago.senhorini"><i class="fa fa-facebook" style="font-size:24px"></i></a></li>
-  <li class="flutuante"><a href="https://github.com/yagosenhorini"><i class="fa fa-github" style="font-size:24px"></i></a></li>
-  <li class="flutuante"><a href="entrar_contato.php" class="letra">Contato</a></li>
-  <li class="flutuante2"><a href="default.php#whoami" class="letra">Quem Sou Eu</a></li>
-  <li class="flutuante2"><a href="default.php#academics" class="letra">Informações Acadêmicas</a></li>
-  <li class="flutuante2"><a href="default.php#hobby" class="letra">Hobbies</a></li>
-</ul>
-</nav>
-</section>
-  
-<!-- Seção de informações pessoais!-->
-<section id="whoami">
-<div class="row">
-<div class="col-xs-12 whoami">
-<div class="container-fluid">
+    </head>
+    <body>
+       <header>
+           <nav class="navegacao">
+               <div class="nav-wrapper">
+                   <a href="index.html" class="brand-logo">Logo</a>
+                   <ul id="nav-mobile" class="right hide-on-med-and-down">
+                       <li><a href="#">Projetos</a></li>
+                       <li><a href="#">Quem Sou Eu</a></li>
+                       <li><a href="#">Contato</a></li>
+                   </ul>
+               </div>
+           </nav>
+       </header>
 
-<h3 class="titulo">Quem Sou Eu</h3>
-<p id="paragrafo">Meu nome é Yago, tenho 24 anos de idade, natural de São Paulo - SP.
-<br />
-Solteiro, não fumante e não possuo filhos.
-<br />
-Atualmente resido na Penha, bairro situado na zona leste da cidade de São Paulo.<br />
-<br />
-Tenho como objetivo, me tornar um desenvolvedor, com ênfase em aplicações desktop ou web.
-<br />
-Possuo conhecimentos nas linguagens de programação: 
-<br />
-<ul>
-<li>Java e suas tecnologias (JSF e Spring) em nível intermediário;</li> 
-<br />
-<li>PHP em nível básico;</li>
-<br />
-<li>Linguagem de formatação para web (HTML e CSS) em nível intermediário;</li>
-<br />
-<li>Banco de dados (Oracle e MySQL) em nível básico;</li>
-<br />
-</ul>
-Sou uma pessoa determinada, pró-ativa e focada, que não tem parada até alcançar os resultados esperados.
-</p>
-</div>
-</div>
-</div>
-</section>
+       <!--Corpo do Site -->
+       <article id="aba-projetos">
+           <section id="aba-info" class="card-panel orange darken-4">
+               <h3 class="titulo">Quem Sou Eu</h3>
+               <div id="quem-somos">
+                   <p class="texto">
+                       Donec euismod magna sit amet neque mattis elementum. Quisque venenatis augue quis enim suscipit porttitor.
+                       Ut bibendum accumsan dolor vel finibus. Vivamus sapien elit, tristique sit amet condimentum sed, maximus at enim.
+                       Nunc tristique ullamcorper vulputate. Quisque nec ultrices velit. Fusce egestas lorem nec diam consectetur commodo.
+                       Nunc scelerisque dignissim pellentesque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+                       Aenean semper, mauris quis rutrum imperdiet, mi ante congue sapien, in consectetur dui sem vel tellus. Nulla facilisi.
+                       Pellentesque vehicula libero sit amet purus molestie ornare. Nulla facilisi. Morbi pellentesque libero id sapien blandit laoreet.
+                       Aenean sagittis in neque eu volutpat. Curabitur quis semper justo. Nunc semper condimentum quam sed finibus.
+                   </p>
+               </div>
+           </section>
 
-<!-- Seção de informações acadêmicas e informações adicionais !-->
-<section id="academics">
+           <section class="card-panel teal lighten-2">
+               <h3 class="titulo">Projetos</h3>
+               <div class="row alinhado">
+                   <div class="col s6 m4">
+                       <div class="card brown darken-3">
+                           <div class="card-content white-text">
+                               <span class="card-title alinhado">Blog <br>(Em desenvolvimento)</span>
+                               <p>
+                                   qwertyuiopasdfghjklzxcvbnm
+                                   qwertyuiopasdfghjklzxcvbnm
+                                   qwertyuiopasdfghjklzxcvbnm
+                               </p>
+                           </div>
+                           <div class="card-action alinhado">
+                               <a href="https://yagosenhorini.github.io/blog-dbz">Ir para o Site</a>
+                           </div>
+                       </div>
+                   </div>
 
-<div class="row">
-<div class="col-xs-12 formation">
-<div class="container-fluid">
-<h3 class="titulo">Formação e Informações Adicionais</h3>
-<p id="paragrafo">Formando em Ciência da Computação, pelo Complexo Educacional das Faculdades Metropolitanas Unidas - FMU.
-<br />
-Para quem não conhece, o curso de Ciência da Computação é focado em desenvolvimento de  aplicações tecnológicas para soluções de problemas atuais, como pequenos controles de estoque, até os mais complexos, como aplicações de Inteligência Artificial, para predição de resultados de exames médicos (Aprendizado de Máquina) ou para criação de inteligência para máquinas (como no filme "Eu, Robô", por exemplo).
-</p>
-<p id="paragrafo">Estudo e utilizo a linguagem JAVA como linguagem padrão para desenvolvimento, tanto de aplicações simples, que não requer nenhum conhecimento específico e de banco de dados, quanto aplicações Web, que requer um nível maior de conhecimento específico da linguagem e a integração com bancos de dados e utilização de frameworks de desenvolvimento.</p>
-<p id="paragrafo">Atualmente, atuo como Analista de Suporte na empresa Camisaria Colombo, grupo este que completou 100 anos de existência, se consolidando como uma das maiores empresas do ramo varejista.</p>
-</div>
-</div>
-</div>
-</section>
+                       <div class="col s6 m4">
+                           <div class="card brown darken-3">
+                               <div class="card-content white-text">
+                                   <span class="card-title alinhado">Blog <br>(Em desenvolvimento)</span>
+                                   <p>
+                                       qwertyuiopasdfghjklzxcvbnm
+                                       qwertyuiopasdfghjklzxcvbnm
+                                       qwertyuiopasdfghjklzxcvbnm
+                                   </p>
+                               </div>
+                               <div class="card-action alinhado">
+                                   <a href="https://yagosenhorini.github.io/blog-dbz">Ir para o Site</a>
+                               </div>
+                           </div>
+                       </div>
+                   <div class="col s6 m4">
+                       <div class="card brown darken-3">
+                           <div class="card-content white-text">
+                               <span class="card-title alinhado">Blog <br>(Em desenvolvimento)</span>
+                               <p>
+                                   qwertyuiopasdfghjklzxcvbnm
+                                   qwertyuiopasdfghjklzxcvbnm
+                                   qwertyuiopasdfghjklzxcvbnm
+                               </p>
+                           </div>
+                           <div class="card-action alinhado">
+                               <a href="https://yagosenhorini.github.io/blog-dbz">Ir para o Site</a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </section>
 
-<!-- Seção de Hobbies e Projetos futuros !-->
-<section id="hobby">
+           <section id="aba-contato" class="card-panel blue darken-4">
+               <h3 class="titulo">Contato</h3>
+               <div id="form-contato">
+                   <p class="texto">
+                       Donec euismod magna sit amet neque mattis elementum. Quisque venenatis augue quis enim suscipit porttitor.
+                       Ut bibendum accumsan dolor vel finibus. Vivamus sapien elit, tristique sit amet condimentum sed, maximus at enim.
+                       Nunc tristique ullamcorper vulputate. Quisque nec ultrices velit. Fusce egestas lorem nec diam consectetur commodo.
+                       Nunc scelerisque dignissim pellentesque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+                       Aenean semper, mauris quis rutrum imperdiet, mi ante congue sapien, in consectetur dui sem vel tellus. Nulla facilisi.
+                       Pellentesque vehicula libero sit amet purus molestie ornare. Nulla facilisi. Morbi pellentesque libero id sapien blandit laoreet.
+                       Aenean sagittis in neque eu volutpat. Curabitur quis semper justo. Nunc semper condimentum quam sed finibus.
+                   </p>
+               </div>
+           </section>
+       </article>
 
-<div class="row">
-<div class="col-xs-12 hobbies">
-<div class="container-fluid">
-<h3 class="titulo">Hobbies e Projetos</h3>
-<p id="paragrafo">Gosto de estudar e aplicar conhecimentos adquiridos, seja na parte de desenvolvimento de aplicações ou até mesmo conteúdo teórico sobre as origens da computação, ou os processos de desenvolvimento de aplicações complexas.
-<br />
-Sou amante da cultura nerd. Gosto de jogar video-game nas horas em que não estou estudando, apaixonado por mangás e animes, como Dragon Ball (e suas derivações), Yu Yu Hakusho e Cavaleiros do Zodíaco e amante de filmes de ficção científica, como Star Wars (Saga de ficção favorita) e de super-heróis (Batman e Homem de Ferro são minhas inspirações).</p>
-<br />
-<p id="paragrafo">Neste projeto, decidi desenvolver esta página, com o intuito de aplicar os conhecimentos adquiridos ao longo dos anos de estudo e aplicar novos conceitos e práticas de desenvolvimento.
-<br />
-Como futuros projetos, pretendo desenvolver pequenas aplicações, para pôr em prática, todo meu conhecimento adquirido com meus estudos.</p>
-</div>
-</div>
-</div>
-<br />
-</section>
 
-<!-- Seção do rodapé !-->
-<section id="end">
-<div class="row">
-<div class="col-xs-12">
-<div class="container-fluid">
-<footer id="rodape">2017 - Todos os direitos reservados.</footer>
-<br />
-</div>
-</section>
-</body>
+       <footer class="page-footer rodape alinhado">
+           <div>
+               <span class="alinhado"><a href="www.github.com/yagosenhorini">Github</a><span>
+                   <br>
+               <span class="alinhado">&copy; 2017 - Todos os direitos reservados<span>
+                   <br><br>
+           </div>
+
+       </footer>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-256612-17','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
 </html>
+
