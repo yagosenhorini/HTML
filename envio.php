@@ -6,7 +6,7 @@ $texto 		= $_POST["campo-texto"];
 $assunto	= $_POST["assunto"];
 //Inclusão do arquivo do phpmailer
 include("class.smtp.php");
-include("class.smtp.php");
+include("class.phpmailer.php");
 //Inicia a classe PHPMailer
 $mail = new PHPMailer();
 //Informação de remetente

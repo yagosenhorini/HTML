@@ -27,8 +27,8 @@
       <file leaf-file-name="envio.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/envio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="144">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -148,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504872918917</updated>
-      <workItem from="1504872920488" duration="8091000" />
+      <workItem from="1504872920488" duration="8284000" />
     </task>
     <task id="LOCAL-00001" summary="Ajuste de grid">
       <created>1504873319180</created>
@@ -227,11 +227,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504882145313</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Alteração de variável">
+      <created>1504883505648</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1504883505648</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8091000" />
+    <option name="totallyTimeSpent" value="8284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -269,7 +276,8 @@
     <MESSAGE value="Inserção de formulário de contato" />
     <MESSAGE value="Alteração de abas de projeto." />
     <MESSAGE value="Inserção de arquivos de envio de informações via email" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inserção de arquivos de envio de informações via email" />
+    <MESSAGE value="Alteração de variável" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alteração de variável" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -322,8 +330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/envio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="144">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding />
         </state>
       </provider>
