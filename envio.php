@@ -2,7 +2,7 @@
 //Recebe variáveis do formulário
 $nome  		= $_POST["nome"];
 $email 		= $_POST["email"];
-$texto 		= $_POST["texto"];
+$texto 		= $_POST["campo-texto"];
 $assunto	= $_POST["assunto"];
 //Inclusão do arquivo do phpmailer
 include("class.smtp.php");
