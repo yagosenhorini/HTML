@@ -17,6 +17,26 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
 
+        <script type="text/javascript">
+            jQuery(document).ready(function(){
+                jQuery('#ajax_form').submit(function(){
+                    var dados = jQuery( this ).serialize();
+                    jQuery.ajax({
+                        type: "POST",
+                        url: "envio.php",
+                        data: dados,
+                        success: function( data, inform ) {
+                            alert("Informações enviadas com sucesso!", data );
+                            $('#ajax_form').each (function(){
+                                this.reset();
+                            });
+                        }
+                    });
+
+                    return false;
+                });
+            });
+        </script>
 
     </head>
     <body>
